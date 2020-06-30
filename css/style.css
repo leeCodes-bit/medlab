@@ -1,3 +1,19 @@
+@keyframes Slide_right{
+   0%{
+       transform: translateX(-400px);
+   }
+   100%{
+       transform: translateX(0);
+   }
+}
+@keyframes Slide_left{
+   0%{
+       transform: translateX(400px);
+   }
+   100%{
+       transform: translateX(0);
+   }
+}
 .active-link {
    font-weight: 500;
    color: #0052ff!important;
@@ -46,6 +62,7 @@
    background-position: top center;
    background-size: cover;
    height: 901px;
+   animation: Slide_right .9s ease-in;
 }
 .header .navbar {
    padding: 15px 90px;
@@ -160,6 +177,7 @@
 
 .services {
    background: white;
+   animation: Slide_right .9s ease-in ;
 }
 .services__header h2 {
    font-weight: 600;
@@ -208,6 +226,9 @@
 .faq {
    background: #f9f9f9;
 }
+.faq__body .card-header, .card-body{
+   animation: Slide_right 1.2s ease-in ;
+}
 .faq__header h2 {
    font-weight: 600;
    font-size: 3rem;
@@ -217,6 +238,8 @@
    width: 500px;
    object-fit: cover;
    margin: auto;
+   animation: Slide_left 1.2s ease-in ;
+
 }
 
 .card-header {
@@ -339,14 +362,13 @@
    font-weight: 600;
    font-size: 3rem;
    color: #3a3a3a;
+   padding-bottom: 20px;
 }
 .hiring__body img {
    width: 450px;
    height: 695px;
    object-fit: cover;
    margin: auto;
-   border: 1px solid #000000;
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hiring__body .form-group {
    position: relative;
@@ -489,6 +511,9 @@
 
    .services__body .card {
       width: 100%;
+   }
+   .hiring__body form button{
+      margin-bottom: 20px;
    }
 }
 @media screen and (max-width: 710px) {
