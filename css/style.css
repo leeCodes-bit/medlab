@@ -103,11 +103,11 @@
 }
 .header__body h2 {
    font-weight: 300;
-   font-size: 4.4rem;
+   font-size: 4rem;
 }
 .header__body h1 {
    font-weight: 500;
-   font-size: 8rem;
+   font-size: 7rem;
 }
 .header__body p {
    font-size: 2.2rem;
@@ -494,16 +494,7 @@
 .footer__body__social a {
    width: 50px;
 }
-@media screen and (max-width: 2000px){
-   .specialist .cards{
-      margin-left: 15%;
-   }
-}
-@media screen and (max-width: 1689px){
-   .specialist .cards{
-      margin-left: 10%;
-   }
-}
+
 @media screen and (max-width: 991px) {
    .header nav {
       background-color: white;
