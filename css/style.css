@@ -374,8 +374,17 @@
    font-size: 2rem;
    width: 700px;
 }
+.testimonial__text p b{
+   padding-top: 15px;
+}
 .testimonial__name {
    color: #0c3999;
+}
+.fa-arrow-circle-o-left, .fa-arrow-circle-o-right{
+   color: silver;
+   font-size: 2rem;
+   margin-top: 55px;
+   margin-right: 15px;
 }
 
 .hiring {
