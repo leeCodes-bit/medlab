@@ -283,7 +283,9 @@
    color: #0052ff;
    margin-top: 8px;
 }
-
+.faq-btn{
+   padding: 5px;
+}
 .collapse .card-body {
    font-weight: 600;
    color: rgba(58, 58, 58, 0.5);
@@ -509,7 +511,9 @@
    .header .navbar-light .navbar-brand:hover {
       color: black;
    }
-
+   .department__bottom-header P{
+      font-size: 1.3em;
+   }
    .hiring .form {
       margin-top: 25px;
    }
@@ -521,6 +525,12 @@
 }
    .faq__body img {
       margin-top: 10px;
+   }
+   .collapse .card-body{
+      font-size: 1.2em;
+   }
+   .services{
+      margin-top: -45px;
    }
 }
 @media screen and (max-width: 846px) {
@@ -568,7 +578,10 @@
 
    .department__bottom-header P {
       width: 90%;
-      font-size: 2rem;
+      font-size: 1.3rem;
+   }
+   .department__top .card-text{
+      font-size: 1.3rem;
    }
 }
 @media screen and (max-width: 650px) {
@@ -587,6 +600,7 @@
    }
    .department__bottom-header h2{
       margin-top: -35px;
+      margin-top: -55px;
    }
    .department__top .card-text{
       margin-bottom: 35px;
