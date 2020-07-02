@@ -427,6 +427,7 @@
    font-size: 2.5rem;
    color: rgba(58, 58, 58, 0.7);
    height: 199px;
+   padding-top: 20px;
 }
 
 .contact {
@@ -515,7 +516,9 @@
    .hiring__body img {
       height: 550px;
    }
-
+.faq{
+   margin-top: -60px;
+}
    .faq__body img {
       margin-top: 10px;
    }
@@ -604,7 +607,9 @@
    .btn{
       padding: 5px;
    }
-
+   .card-header h5 button{
+      font-size: 1.7em;
+   }
    .contact__body {
       grid-template-columns: 1fr;
       gap: 30px;
@@ -619,6 +624,14 @@
       gap: 20px;
    }
 }
+@media screen and (max-width: 615px){
+   .card-header h5 button{
+      font-size: 1.7em;
+   }
+   .fa-angle-down{
+      margin-left: 30px;
+   }
+}
 @media screen and (max-width: 535px) {
    .hiring__body img {
       width: 99%;
@@ -627,7 +640,12 @@
    .faq__body img {
       width: 99%;
    }
-
+   .card-header h5 button{
+      font-size: 1.7em;
+   }
+   .fa-angle-down{
+      margin-left: 10px;
+   }
    .plr {
       padding: 0 20px;
    }
@@ -646,6 +664,9 @@
    .header__body p {
       font-size: 1.9rem;
    }
+   .card-header h5 button{
+      font-size: 1.5em;
+   }
 }
 @media screen and (max-width: 340px) {
    .services__body .card {
@@ -655,7 +676,9 @@
    .hiring form button {
       width: 100%;
    }
-
+   .card-header h5 button{
+      font-size: 1.2em;
+   }
    .plr {
       padding: 0 5px;
    }
