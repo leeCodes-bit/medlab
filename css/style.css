@@ -166,14 +166,6 @@
    padding: 20px 5px;
    cursor: pointer;
 }
-.department__bottom  {
-   
-}
-
-/* .department__bottom .row .card:hover, .department__bottom .row h4:hover{
-   background-color: #0052ff;
-   color: white;
-} */
 .department__bottom .row .card:hover,
 .department__bottom .row .card:hover h4 {
    background-color: #0052ff;
@@ -262,9 +254,14 @@
    object-fit: cover;
    margin: auto;
    animation: Slide_left 1.2s ease-in ;
-
 }
-
+.fa-angle-down{
+   margin-left: 100px;
+   text-decoration: none;
+}
+.span{
+   color: white;
+}
 .card-header {
    padding: 0.75rem 1.25rem;
    padding-right: 20px;
