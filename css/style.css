@@ -626,7 +626,7 @@
 }
 @media screen and (max-width: 615px){
    .card-header h5 button{
-      font-size: 1.7em;
+      font-size: 1.5em;
    }
    .fa-angle-down{
       margin-left: 30px;
@@ -641,7 +641,7 @@
       width: 99%;
    }
    .card-header h5 button{
-      font-size: 1.7em;
+      font-size: 1.4em;
    }
    .fa-angle-down{
       margin-left: 10px;
@@ -665,7 +665,7 @@
       font-size: 1.9rem;
    }
    .card-header h5 button{
-      font-size: 1.5em;
+      font-size: 1.1em;
    }
 }
 @media screen and (max-width: 340px) {
@@ -677,7 +677,7 @@
       width: 100%;
    }
    .card-header h5 button{
-      font-size: 1.2em;
+      font-size: 1.1em;
    }
    .plr {
       padding: 0 5px;
