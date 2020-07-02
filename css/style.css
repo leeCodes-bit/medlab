@@ -166,7 +166,16 @@
    padding: 20px 5px;
    cursor: pointer;
 }
-.department__bottom .row .card:hover, .department__bottom .row h4:hover{
+.department__bottom  {
+   
+}
+
+/* .department__bottom .row .card:hover, .department__bottom .row h4:hover{
+   background-color: #0052ff;
+   color: white;
+} */
+.department__bottom .row .card:hover,
+.department__bottom .row .card:hover h4 {
    background-color: #0052ff;
    color: white;
 }
@@ -186,6 +195,11 @@
 .services {
    background: white;
    animation: Slide_right .9s ease-in ;
+}
+.services .card:hover, .services .card:hover h4, .services .card:hover p, .services .card:hover li{
+   background-color: #0052ff;
+   color: white;
+   cursor: pointer;
 }
 .services__header h2 {
    font-weight: 600;
@@ -565,18 +579,33 @@
    .header .navbar {
       padding: 15px 30px;
    }
+   .department{
+      padding-top: -5px;
+   }
+   .department__top .card-img-top{
+      margin-top: -40px;
+   }
+   .department__bottom-header h2{
+      margin-top: -35px;
+   }
+   .department__top .card-text{
+      margin-bottom: 35px;
+   }
    .header__body {
       padding: 0 8px;
    }
    .header__body h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
    }
    .header__body h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
       line-height: 60px;
    }
    .header__body p {
       font-size: 1.5rem;
+   }
+   .btn{
+      padding: 5px;
    }
 
    .contact__body {
