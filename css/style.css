@@ -250,7 +250,7 @@
    color: #3a3a3a;
 }
 .faq__body img {
-   width: 500px;
+   width: 480px;
    object-fit: cover;
    margin: auto;
    animation: Slide_left 1.2s ease-in ;
@@ -505,7 +505,7 @@
       color: #000000;
    }
    .header .navbar-light .navbar-brand {
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #000000;
    }
    .header .navbar-light .navbar-brand:hover {
@@ -558,11 +558,11 @@
       width: 90%;
    }
    .hiring__header h2{
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       text-align: center;
    }
    .hiring__body form input, .hiring__body form textarea{
-      font-size: 1.8rem;
+      font-size: 1.6rem;
    }
    .hiring__body form textarea{
       padding-top: 20px;
@@ -583,6 +583,9 @@
    .department__top .card-text{
       font-size: 1.3rem;
    }
+   .hiring__body form label{
+      font-size: 1.8em;
+   }
 }
 @media screen and (max-width: 650px) {
    .header {
@@ -590,7 +593,7 @@
       background-position: 220%;
    }
    .header .navbar {
-      padding: 15px 30px;
+      padding: 10px 30px;
    }
    .department{
       padding-top: -5px;
@@ -618,11 +621,23 @@
    .header__body p {
       font-size: 1.5rem;
    }
+   .faq__header h2, .specialist__header h2, .testimonial__header h2, .contact__header h2{
+      font-size: 2.5rem;
+   }
+   .testimonial__text p{
+      font-size: 1.5rem;
+   }
    .btn{
       padding: 5px;
    }
    .card-header h5 button{
       font-size: 1.7em;
+   }
+   .contact p {
+      font-size: 1.3rem;
+   }
+   .contact h5{
+      font-size: 1.8rem;
    }
    .contact__body {
       grid-template-columns: 1fr;
@@ -669,14 +684,14 @@
       background-position: 200%;
    }
    .header__body h2 {
-      font-size: 2.36rem;
+      font-size: 2.3rem;
    }
    .header__body h1 {
-      font-size: 4.34rem;
+      font-size: 4rem;
       line-height: 40px;
    }
    .header__body p {
-      font-size: 1.9rem;
+      font-size: 1.6rem;
    }
    .card-header h5 button{
       font-size: 1.1em;
